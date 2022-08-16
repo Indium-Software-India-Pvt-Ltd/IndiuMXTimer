@@ -1,0 +1,11 @@
+/*
+Place your custom CSS here
+*/
+.widget-hello-world {
+
+}
+
+.indium-timer-container {
+    flex-direction: column;
+    text-align: center;
+}

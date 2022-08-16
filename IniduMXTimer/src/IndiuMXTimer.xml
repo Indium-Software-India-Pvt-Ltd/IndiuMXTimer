@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="indium.indiumxtimer.IndiuMXTimer" pluginWidget="true" needsEntityContext="true" offlineCapable="true" supportedPlatform="Web" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Indiu MXTimer</name>
+    <description>My widget description</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+
+            <!-- Attribute -->
+            <property key="Time" type="attribute">
+                <caption>Attribute (path)</caption>
+                <description />
+                <attributeTypes>
+                    <attributeType name="String" />
+                </attributeTypes>
+            </property>
+            <!-- On Change Action  for start-->
+            <property key="onChangeStart" type="action">
+                <caption>On Click of Start</caption>
+                <description></description>
+            </property>
+            <!-- On Change Action  for start-->
+            <property key="onChangeStop" type="action">
+                <caption>On Click of Stop</caption>
+                <description></description>
+            </property>
+            <!-- On Change Action  for start-->
+            <property key="onChangeReset" type="action">
+                <caption>On Click of Reset</caption>
+                <description></description>
+            </property>
+            <property key="minutes" type="integer" defaultValue="0">
+                <caption>Offset Value</caption>
+                <description></description>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
